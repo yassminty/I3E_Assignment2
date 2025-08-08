@@ -9,7 +9,24 @@
 
 
 
+things to do tues:
 
+ui options:
+options
+start
+credits
+how to play
+quit
+
+2 ai/npc fsm
+
+another hazard
+
+2 more types of collectible
+
+1 special collectible
+
+1 teleport to new area
 
 
 
