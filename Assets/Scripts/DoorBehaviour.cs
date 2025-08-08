@@ -1,16 +1,12 @@
 using UnityEngine;
 
+// making door move 
 public class DoorBehaviour : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Interact()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Vector3 doorRotation = transform.eulerAngles;
+        doorRotation.y += 90f; //will rotate door 90 degrees
+        transform.eulerAngles = doorRotation; //is to apply the rotation
     }
 }
