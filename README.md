@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=YOaYQrN1oYQ
 experience. 
 o E.g. a locked door, powered down teleporter, blocked off exit 
 • There must be at least 3 different types of collectibles in the world. 
-• One special collectible must be picked up in one area and placed in another. 
+• One special collectible must be picked up in one area and placed in another. [ring]
 o E.g. picking up a power crystal in Area B, and placing it in an engine in 
 Area A. 
 • Once all collectibles are collected and the special collectible is placed, the 
@@ -45,3 +45,4 @@ https://pixabay.com/users/alexis_gaming_cam-50011695/?utm_source=link-attributio
 - Image by mrsiraphol on Freepik https://www.freepik.com/free-photo/white-bricks-wall-texture_974611.htm#fromView=search&page=1&position=5&uuid=18af53d8-fdbf-41df-a6cc-231d6f5d2775&query=wall
 - Cover Image by Freepik https://www.freepik.com/free-vector/flat-design-abstract-background_19332474.htm#fromView=search&page=1&position=5&uuid=ce844435-e9d6-446f-8e87-2ab7d38282e6&query=fun+background
 - Menu Tutorial by Brackeys
+- cat Icon by Marz Gallery on Freepik https://www.freepik.com/icon/kitty_6988878#fromView=search&page=1&position=1&uuid=d2949c27-3974-443b-afa5-ccb4c571e741
