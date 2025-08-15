@@ -24,7 +24,7 @@ o E.g. picking up a power crystal in Area B, and placing it in an engine in
 Area A. 
 • Once all collectibles are collected and the special collectible is placed, the 
 access point to the last area can be interacted with. 
-• At least 2 types of hazards that damage or kill the player 
+• At least 2 types of hazards that damage or kill the player [done]
 o These hazards can be static. 
 • An on-screen UI that updates a score counter when items are collected. [done]
 • An on-screen congratulatory message that appears when all items are collected. 
