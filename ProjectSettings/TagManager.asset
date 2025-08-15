@@ -10,6 +10,8 @@ TagManager:
   - Death
   - Platform
   - Special
+  - Roses
+  - Daisies
   layers:
   - Default
   - TransparentFX

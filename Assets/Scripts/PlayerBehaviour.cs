@@ -81,8 +81,10 @@ public class PlayerBehaviour : MonoBehaviour
     void Die()
     {
         gameOverScreen.SetActive(true); //activate game over screen
+        Cursor.lockState = CursorLockMode.None; // unlock cursor
+        Cursor.visible = true; // show cursor
         Application.Quit();
-        Debug.Log("game wuit");
+        Debug.Log("game quit");
     }    
 
 

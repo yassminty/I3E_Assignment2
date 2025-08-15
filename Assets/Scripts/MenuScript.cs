@@ -7,7 +7,11 @@ public class MenuScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //starts game once player presses start
     }
-
+        public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1); //restarts game from beginning
+    }
+    
     public void QuitGame()
     {
         Application.Quit(); // game will quit
