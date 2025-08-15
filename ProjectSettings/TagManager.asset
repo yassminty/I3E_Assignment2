@@ -9,6 +9,7 @@ TagManager:
   - Heart
   - Death
   - Platform
+  - Special
   layers:
   - Default
   - TransparentFX
