@@ -3,11 +3,7 @@
 
 
 
-
-
-
-• An options page accessible from the start menu. [done] 
-https://www.youtube.com/watch?v=YOaYQrN1oYQ
+sound effects might not work
 
 
 • The access point to the final area cannot be interacted with at the start of the 
@@ -18,7 +14,6 @@ o E.g. a locked door, powered down teleporter, blocked off exit
 access point to the last area can be interacted with. 
 
 • An on-screen congratulatory message that appears when all items are collected. 
-• Use of BGM [done] and simple audio effects 
 • 2 ai/npc fsm 
 https://www.youtube.com/watch?v=-Iwsz4gdgyQ
 

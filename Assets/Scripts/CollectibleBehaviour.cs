@@ -13,6 +13,7 @@ public class CollectibleBehaviour : MonoBehaviour
     public GameObject endScreen;
     public static int collectedHearts = 0;
     public static int totalHearts = 5;
+    public AudioSource CollectSFX;
 
     void OnTriggerEnter(Collider other)
     {
@@ -20,24 +21,48 @@ public class CollectibleBehaviour : MonoBehaviour
         {
             heartValue += 5; //increases score of player
             Score.text = "Score: " + heartValue.ToString(); //updates score for player after they interact with the items
-            Debug.Log(heartValue); //just to write out in console if it works lol
-            Destroy(other.gameObject); //collectible willbe destroyed after user is done interacting with it
+            if (CollectSFX != null)
+            {
+                CollectSFX.Play();
+                Destroy(other.gameObject, CollectSFX.clip.length);
+            }
+            else
+            {
+                Destroy(other.gameObject); //collectible willbe destroyed after user is done interacting with it
+            }
+            //Debug.Log(heartValue); //just to write out in console if it works lol
         }
 
         else if (other.transform.tag == "Roses")
         {
             roseValue += 1; //increases score of player
             RoseScore.text = "Roses: " + roseValue.ToString() + "/13"; //updates score for player after they interact with the items
-            Debug.Log(roseValue); //just to write out in console if it works lol
-            Destroy(other.gameObject); //collectible willbe destroyed after user is done interacting with it
+            if (CollectSFX != null)
+            {
+                CollectSFX.Play();
+                Destroy(other.gameObject, CollectSFX.clip.length);
+            }
+            else
+            {
+                Destroy(other.gameObject); //collectible willbe destroyed after user is done interacting with it
+            }
+            //Debug.Log(roseValue); //just to write out in console if it works lol
         }
 
         else if (other.transform.tag == "Daisies")
         {
             daisyValue += 1; //increases score of player
             DaisyScore.text = "Daisies: " + daisyValue.ToString() + "/10"; //updates score for player after they interact with the items
-            Debug.Log(daisyValue); //just to write out in console if it works lol
-            Destroy(other.gameObject); //collectible willbe destroyed after user is done interacting with it
+            if (CollectSFX != null)
+            {
+                CollectSFX.Play();
+                Destroy(other.gameObject, CollectSFX.clip.length);
+            }
+            else
+            {
+                Destroy(other.gameObject); //collectible willbe destroyed after user is done interacting with it
+            }
+            //Debug.Log(daisyValue); //just to write out in console if it works lol
         }
 
         //make collectible item counter go higher and will show end screen when collected every item
