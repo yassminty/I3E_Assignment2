@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 
 public class CollectibleBehaviour : MonoBehaviour
@@ -12,8 +13,15 @@ public class CollectibleBehaviour : MonoBehaviour
     public TextMeshProUGUI DaisyScore;
     public GameObject endScreen;
     public static int collectedHearts = 0;
-    public static int totalHearts = 5;
+    public static int collectedItems = 0;
+    public static int totalItems = 30; //total items to collect
     public AudioSource CollectSFX;
+
+    void Start()
+    {
+        collectedHearts = 0;
+        totalItems = GameObject.FindGameObjectsWithTag("Heart").Length + GameObject.FindGameObjectsWithTag("Roses").Length + GameObject.FindGameObjectsWithTag("Daisies").Length;
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -21,6 +29,7 @@ public class CollectibleBehaviour : MonoBehaviour
         {
             heartValue += 5; //increases score of player
             Score.text = "Score: " + heartValue.ToString(); //updates score for player after they interact with the items
+            collectedItems++;
             if (CollectSFX != null)
             {
                 CollectSFX.Play();
@@ -37,6 +46,7 @@ public class CollectibleBehaviour : MonoBehaviour
         {
             roseValue += 1; //increases score of player
             RoseScore.text = "Roses: " + roseValue.ToString() + "/13"; //updates score for player after they interact with the items
+            collectedItems++;
             if (CollectSFX != null)
             {
                 CollectSFX.Play();
@@ -53,6 +63,7 @@ public class CollectibleBehaviour : MonoBehaviour
         {
             daisyValue += 1; //increases score of player
             DaisyScore.text = "Daisies: " + daisyValue.ToString() + "/10"; //updates score for player after they interact with the items
+            collectedItems++;
             if (CollectSFX != null)
             {
                 CollectSFX.Play();
@@ -68,9 +79,7 @@ public class CollectibleBehaviour : MonoBehaviour
         //make collectible item counter go higher and will show end screen when collected every item
         else if (other.CompareTag("Player"))
         {
-            collectedHearts++;
-
-            if (collectedHearts >= totalHearts) //&& endScreen != null)
+            if (collectedItems == totalItems && endScreen != null)
             {
                 endScreen.SetActive(true); //opens congrats screen
                 Debug.Log("everything collected already");

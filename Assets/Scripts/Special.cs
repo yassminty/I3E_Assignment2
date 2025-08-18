@@ -9,7 +9,7 @@ public class Special : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             teleportPlatform.SetActive(true); // activate the teleport platform
-            Debug.Log("Teleport platform activated!");
+            Debug.Log("teleport ready");
             Destroy(gameObject); // remove the special item
         }
     }

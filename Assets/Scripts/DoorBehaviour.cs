@@ -29,8 +29,7 @@ public class DoorBehaviour : MonoBehaviour
     void OpenDoor()
     {
         Vector3 doorRotation = transform.eulerAngles;
-        doorRotation.y += 90f; // Rotate door 90 degrees
+        doorRotation.y += 90f; // rotate door 90 degrees
         transform.eulerAngles = doorRotation;
-        Debug.Log("Door unlocked and opened by AI!");
     }
 }
