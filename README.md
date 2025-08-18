@@ -1,10 +1,19 @@
 # I3E_ASG2
+
+/*
+
+    author: yasmin (bc who else right?)
+    date: week 14-17
+    description: this is my 3rd time redoing this module and i just want to pass it already T^T pt2
+*/
+
+
 # Goofy Guys
 So in this game, you get to help your friend who is dumb enough to not get everything right so he can impress his girl! anyways, you have to collect everything that you think is collectible and you can win the game.
 
 ## Description
 
-This is a walking sim/collecting game where the player [you] need to get the collectible items to get to another place on the map to 
+This is a walking sim/collecting game where the player [you] need to get the collectible items to get to another place on the map to finish the game. [you] need to collect the hearts in the room before leaving else you cant leave due to the ai door not working [coded in script]. after getting out, [you] have to help you friend collect the items outside and get the ring to activiate the portal to the other place where you can meet the other friend. here you will encoounter the enemy [red colour] and it will give chase if you step too close to it, chasing after you for a specific amount of time [coded in script]. after collecting everything, a congrats screen will pop out and you have finished the game! reminder to not step into the dangers and hazards there [rocks & peppers] unless you want to restart the game all over again.
 
 ## Getting Started
 
@@ -19,12 +28,21 @@ This is a walking sim/collecting game where the player [you] need to get the col
 
 ### Controls
 
-* How to run the program
-* Step-by-step bullets
+* W = Walk Forwards
+* A = Walk Left
+* S = Walk Backwards
+* D = Walk Right
+* Shift + WASD = Sprint/Run
+* Spacebar = Jump
+* E/LMB = Interact [not implemented]
 
 ## Limitations
 
 * sound effects might not work and if i put in the sfx, the items arent able to be collected
+* still cant do use the file header thing cher, sorry :')
+* the chasing npc isnt able to give chase despite coding it to work
+* end screen might not pop out despite coding it to pop up after collecting all the items
+
 
 ## Authors
 
@@ -47,6 +65,12 @@ CREDITS/REFERENCES:
 
 * Cat Icon by Marz Gallery on Freepik
     - https://www.freepik.com/icon/kitty_6988878#fromView=search&page=1&position=1&uuid=d2949c27-3974-443b-afa5-ccb4c571e741
+      
+* DEMO: Low Poly Flower Pack by Emilulz on Unity Assets Store
+    - https://assetstore.unity.com/packages/3d/vegetation/flowers/demo-low-poly-flower-pack-325074
+
+* Match 3d Object Pack: Fruits & Vegetables by ThreeBox on Unity Assets Store
+    - https://assetstore.unity.com/packages/3d/props/food/match-3d-object-pack-fruits-vegetables-284706
 
 * Music by Ievgen Poltavskyi from Pixabay
 * Menu Tutorials by Brackeys
