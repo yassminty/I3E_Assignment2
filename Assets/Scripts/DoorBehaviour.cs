@@ -17,7 +17,7 @@ public class DoorBehaviour : MonoBehaviour
     {
         while (!isOpen)
         {
-            if (CollectibleBehaviour.collectedHearts >= requiredCollectibles)
+            if (CollectibleBehaviour.collectedHearts == requiredCollectibles)
             {
                 OpenDoor();
                 isOpen = true;

@@ -8,16 +8,7 @@ Simple overview of use/purpose.
 sound effects might not work
 
 
-• The access point to the final area cannot be interacted with at the start of the 
-experience. 
-o E.g. a locked door, powered down teleporter, blocked off exit 
 
-• Once all collectibles are collected and the special collectible is placed, the 
-access point to the last area can be interacted with. 
-
-• An on-screen congratulatory message that appears when all items are collected. 
-• 1 ai/npc fsm 
-https://www.youtube.com/watch?v=-Iwsz4gdgyQ
 
 
 ## Description
