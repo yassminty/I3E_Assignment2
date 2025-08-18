@@ -1,5 +1,7 @@
 # I3E_ASG2
+# Project Title
 
+Simple overview of use/purpose.
 
 
 
@@ -18,12 +20,60 @@ access point to the last area can be interacted with.
 https://www.youtube.com/watch?v=-Iwsz4gdgyQ
 
 
+## Description
 
+An in-depth paragraph about your project and overview of use.
 
+## Getting Started
 
+### Dependencies
 
+* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* ex. Windows 10
+
+### Installing
+
+* How/where to download your program
+* Any modifications needed to be made to files/folders
+
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Authors
+
+Contributors names and contact info
+
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+## Acknowledgments
 
 CREDITS/REFERENCES:
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [dbader](https://github.com/dbader/readme-template)
+* [zenorocha](https://gist.github.com/zenorocha/4526327)
+* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+
+
+
+
 - Sound Effects by ALEXIS_GAMING_CAM from Pixabay
 https://pixabay.com/users/alexis_gaming_cam-50011695/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=367087
 - Music by Ievgen Poltavskyi from Pixabay

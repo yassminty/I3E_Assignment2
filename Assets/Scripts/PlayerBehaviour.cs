@@ -11,25 +11,6 @@ public class PlayerBehaviour : MonoBehaviour
 
     public GameObject gameOverScreen; //game over screen if player dies
 
-    //make sure that the player can interact with the objects and not mess this up PLEASE T-T
-    void OnInteract()
-    {
-        if (canInteract)
-        {
-            if (currentHeart != null)
-            {
-                Debug.Log("please get the heart");
-                //currentHeart.Collect(this);
-            }
-
-            else if (currentDoor != null)
-            {
-                Debug.Log("open sesame");
-                currentDoor.Interact();
-            }
-        }
-    }
-
     // increase score of player wehn they interact with the collectible i set up for them
     public void ChangeScore(int amount)
     {
