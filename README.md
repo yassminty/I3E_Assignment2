@@ -1,57 +1,37 @@
 # I3E_ASG2
-# Project Title
-
-Simple overview of use/purpose.
-
-
-
-sound effects might not work
-
-
-
-
+# Goofy Guys
+So in this game, you get to help your friend who is dumb enough to not get everything right so he can impress his girl! anyways, you have to collect everything that you think is collectible and you can win the game.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This is a walking sim/collecting game where the player [you] need to get the collectible items to get to another place on the map to 
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+[the game can only be played on a windows operating system]
 
-### Installing
+* Operating System	Windows 10 version newer (X64)
+* CPU	X64 architecture with SSE2 support
+* Graphics API	DX10, DX11, DX12, or Vulkan capable GPU
+* RAM	Minimum 8 GB RAM
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
+### Controls
 
 * How to run the program
 * Step-by-step bullets
-```
-code blocks for commands
-```
 
-## Help
+## Limitations
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* sound effects might not work and if i put in the sfx, the items arent able to be collected
 
 ## Authors
 
-Contributors names and contact info
+yasmin
+school email: s10247871@connect.np.edu.sg
+personal email: stylinsonlouise@gmail.com
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
@@ -71,4 +51,5 @@ CREDITS/REFERENCES:
 * Music by Ievgen Poltavskyi from Pixabay
 * Menu Tutorials by Brackeys
 * Teleportation Tutorial by Omogonix
-* Code Help from copilot
+* Code Help from Github Copilot
+* Readme template from Github
