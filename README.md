@@ -47,8 +47,8 @@ This is a walking sim/collecting game where the player [you] need to get the col
 ## Authors
 
 yasmin
-school email: s10247871@connect.np.edu.sg
-personal email: stylinsonlouise@gmail.com
+- school email: s10247871@connect.np.edu.sg
+- personal email: stylinsonlouise@gmail.com
 
 
 ## Acknowledgments
